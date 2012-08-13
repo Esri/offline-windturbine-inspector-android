@@ -12,8 +12,7 @@ Bladerunner App
 - Android 3.2 (API 13)
 - Google API's
 BladeRunner Source
-- http://resources.arcgis.com/en/help/android-sdk/concepts/index.html#/System_requirements/011900000004000000/
-
+- https://github.com/ArcGIS/BladeRunner
 ===============
 Disk Contents
 ===============
