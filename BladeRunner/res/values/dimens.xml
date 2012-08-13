@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="zero_value">0dip</dimen>
+    <dimen name="text_size_xsmall">12sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_smallmedium">16sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_mediumlarge">20sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+    <dimen name="map_size_large">30sp</dimen>
+	
+	<dimen name="width1">1dip</dimen>
+	<dimen name="width2">2dip</dimen>
+	<dimen name="width10">10dip</dimen>
+	<dimen name="width12">12dip</dimen>
+	<dimen name="width16">16dip</dimen>
+	<dimen name="width30">30dip</dimen>
+	<dimen name="width40">40dip</dimen>
+	<dimen name="width50">50dip</dimen>
+	<dimen name="width100">100dip</dimen>
+	<dimen name="width150">150dip</dimen>
+	<dimen name="width175">175dip</dimen>
+	<dimen name="width200">200dip</dimen>
+	<dimen name="width250">250dip</dimen>
+	<dimen name="width300">300dip</dimen>
+	<dimen name="width350">350dip</dimen>
+	<dimen name="width450">450dip</dimen>
+	
+	<dimen name="height1">1dip</dimen>
+	<dimen name="height10">10dip</dimen>
+	<dimen name="height25">25dip</dimen>
+	<dimen name="height28">28dip</dimen>
+	<dimen name="height30">30dip</dimen>
+	<dimen name="height40">40dip</dimen>
+	<dimen name="height50">50dip</dimen>
+	<dimen name="height60">60dip</dimen>
+	<dimen name="height80">80dip</dimen>
+	<dimen name="height100">100dip</dimen>
+	<dimen name="height152">152dip</dimen>
+	<dimen name="height170">170dip</dimen>
+	<dimen name="height200">200dip</dimen>
+	<dimen name="height400">400dip</dimen>
+	
+	<dimen name="padding2">2dip</dimen>
+	<dimen name="padding3">3dip</dimen>
+	<dimen name="padding4">4dip</dimen>
+	<dimen name="padding5">5dip</dimen>
+	<dimen name="padding8">8dip</dimen>
+	<dimen name="padding10">10dip</dimen>
+	<dimen name="padding12">12dip</dimen>
+	<dimen name="padding15">15dip</dimen>
+	<dimen name="padding120">20dip</dimen>
+	<dimen name="padding35">35dip</dimen>
+	
+	<dimen name="margin1">1dip</dimen>
+	<dimen name="margin2">2dip</dimen>
+	<dimen name="margin3">3dip</dimen>
+	<dimen name="margin4">4dip</dimen>
+	<dimen name="margin5">5dip</dimen>
+	<dimen name="margin6">6dip</dimen>
+	<dimen name="margin10">10dip</dimen>
+	<dimen name="margin15">15dip</dimen>
+	<dimen name="margin20">20dip</dimen>
+	<dimen name="margin30">30dip</dimen>
+	<dimen name="margin40">40dip</dimen>
+	<dimen name="margin690">690dip</dimen>
+	<dimen name="margin1040">1040dip</dimen>
+	
+	<dimen name="stroke1">1dip</dimen>
+	<dimen name="stroke2">2dip</dimen>
+	
+	<dimen name="radius4">4dip</dimen>
+	<dimen name="radius6">6dip</dimen>
+	
+	<!-- Sketch -->
+	<dimen name="sketch_vertex_stroke">1dip</dimen>
+	<dimen name="sketch_vertex_size">10dip</dimen>
+	<dimen name="sketch_line_stroke">2dip</dimen>
+	<dimen name="sketch_background_line_stroke">6dip</dimen>
+	<dimen name="sketch_midpoint_size">8dip</dimen>
+	<dimen name="sketch_last_vertex_size">10dip</dimen>
+	
+	<dimen name="laser_line_stroke">4dip</dimen>
+	<dimen name="laser_background_line_stroke">8dip</dimen>
+	
+	<dimen name="anchor9">9dip</dimen>
+	
+	<dimen name="y_offset10">10px</dimen>
+	<dimen name="y_offset15">15px</dimen>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/resultslayout"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_margin="@dimen/margin2"
+	android:background="@drawable/layout_semitransparent">
+
+   	<TextView
+		android:id="@+id/resultstext"
+		android:layout_alignParentTop="true"
+		android:layout_centerVertical="false"
+		android:paddingTop="@dimen/padding8"
+		android:paddingBottom="@dimen/padding8"
+		android:background="@drawable/textview_pressed"
+		android:text="@string/tubines_found"
+		android:textStyle="bold"
+		style="@style/spinner_text_style"/>
+    
+    <ListView
+		android:id="@+id/resultslistview"
+		android:layout_width="@dimen/width350" 
+		android:layout_height="@dimen/height400"
+		android:layout_below="@id/resultstext"
+		android:layout_centerHorizontal="true"
+		android:cacheColorHint="#00000000"
+		android:listSelector="@drawable/default_item_pressed"
+		android:background="@drawable/layout_semitransparent">
+	</ListView>
+</RelativeLayout>

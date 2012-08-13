@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Action Bar -->
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/topbarlayout"
+	style="@style/topbar_style">
+
+	<Button
+		android:id="@+id/appbutton"
+		android:layout_alignParentLeft="true"
+		android:background="@drawable/app_button_selector"
+	  	style="@style/transparent_button_style">
+ 	</Button>
+ 	<TextView
+  		android:id="@+id/titletext"
+  		android:layout_alignParentLeft="false"
+  		android:layout_toRightOf="@id/appbutton"
+  		android:paddingRight="@dimen/padding10"
+  		android:text="@string/app_name"
+  		style="@style/title_textcolor_style">
+  	</TextView>
+ 
+	<ImageView
+		android:id="@+id/divider0"
+		android:layout_centerVertical="true"
+		android:layout_alignRight="@id/titletext"
+		style="@style/divider_style">
+	</ImageView>
+ 	    
+	<!-- Teams -->
+	<Spinner
+	    android:id="@+id/teamspinner"
+	    android:layout_width="@dimen/width200"
+	    android:layout_height="@dimen/height60"
+	    android:layout_toRightOf="@id/divider0"
+	    android:layout_marginLeft="@dimen/margin30"
+	    android:layout_marginRight="@dimen/margin5"
+	    android:prompt="@string/team_hint"
+	    android:visibility="gone"
+	    style="?android:attr/spinnerItemStyle">
+	</Spinner>
+		
+	<ImageView
+		android:id="@+id/divider"
+		android:layout_centerVertical="true"
+		android:layout_alignRight="@id/teamspinner"
+		android:visibility="gone"
+		style="@style/divider_style">
+	</ImageView>
+	
+	<!-- Days -->
+	<RelativeLayout
+	    android:id="@+id/daylayout"
+	    android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_centerVertical="true"
+		android:layout_toRightOf="@id/divider"
+		android:visibility="gone">
+		<Spinner
+			android:id="@+id/daysspinner"
+			android:layout_width="@dimen/width200"
+			android:layout_height="@dimen/height60"
+			android:prompt="@string/day_hint"
+			android:layout_marginLeft="@dimen/margin5"
+	    	android:layout_marginRight="@dimen/margin5"
+			style="?android:attr/spinnerItemStyle">
+		</Spinner>
+		<ImageView
+			android:id="@+id/daydivider"
+			android:layout_toRightOf="@id/daysspinner"
+			android:layout_marginLeft="@dimen/margin4"
+			android:layout_marginRight="@dimen/margin4"
+			style="@style/divider_style">
+		</ImageView>
+		<Button
+			android:id="@+id/acceptbutton"
+			android:layout_toRightOf="@id/daydivider"
+			android:background="@drawable/accept_button_selector"
+		  	style="@style/transparent_button_style">
+	 	</Button>
+	 	<Button
+			android:id="@+id/deletebutton"
+			android:layout_toRightOf="@id/acceptbutton"
+			android:background="@drawable/delete_button_selector"
+		  	style="@style/transparent_button_style">
+	 	</Button>
+	</RelativeLayout>
+
+	<ToggleButton
+	    android:id="@+id/resultsbutton"
+	    android:layout_width="wrap_content"
+		android:layout_alignParentRight="true"
+	    android:textOn="@string/results"
+	    android:textOff="@string/results"
+	    android:text="@string/results"
+	    android:textSize="@dimen/text_size_mediumlarge"
+	    android:background="@drawable/button_selector"
+	    android:paddingLeft="@dimen/padding10"
+	    android:paddingRight="@dimen/padding10"
+	    android:visibility="gone"
+	    style="@style/transparent_button_style">
+	</ToggleButton>
+	
+    <ToggleButton
+	    android:id="@+id/layersbutton"
+	    android:layout_toLeftOf="@id/resultsbutton"
+	    android:textOn=""
+		android:textOff=""
+		android:text=""
+		android:visibility="gone"
+	    android:background="@drawable/layers_button_selector"
+	    style="@style/transparent_button_style">
+	</ToggleButton>
+	
+	<ToggleButton
+	    android:id="@+id/laserbutton"
+	    android:layout_toLeftOf="@id/layersbutton"
+	    android:textOn=""
+		android:textOff=""
+		android:text=""
+		android:visibility="gone"
+	    android:background="@drawable/laser_button_selector"
+	    style="@style/transparent_button_style">
+	</ToggleButton>
+	
+   	<TextView
+  		android:id="@+id/statustext"
+  		android:layout_toLeftOf="@id/laserbutton"
+  		android:gravity="right|center_vertical"
+  		android:paddingLeft="@dimen/padding5"
+  		android:text=""
+  		style="@style/spinner_text_style">
+  	</TextView>
+	        
+</RelativeLayout>

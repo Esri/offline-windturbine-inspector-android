@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android">
+	<calloutViewStyle
+		backgroundColor="@color/button_pressed_color2"
+		frameColor="@color/dialog_stroke"
+		backgroundAlpha="225"
+		flat="true"
+		cornerCurve="@dimen/radius6"   
+		anchor="@dimen/anchor9"/>
+<!-- 		frameColor="@color/button_default_stroke" -->
+<!-- backgroundColor="@color/mediumblue_color" -->
+</resources>

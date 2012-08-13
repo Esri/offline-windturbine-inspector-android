@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:esri="http://schemas.android.com/apk/res/com.esri.android">
+    <style name="Theme" parent="android:Theme"></style>
+
+    <style name="apptheme" parent="android:style/Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
+        <item name="android:alertDialogStyle">@style/AlertDialog</item>
+	    <item name="android:windowTitleStyle">@style/DialogWindowTitle</item>
+		<item name="android:spinnerStyle">@style/spinner</item>
+        <item name="android:spinnerDropDownItemStyle">@style/dropDownItem</item>
+        <item name="android:spinnerItemStyle">@style/spinner_text_style</item>
+        <item name="android:listViewStyle">@style/listView_style</item>
+        <item name="android:checkboxStyle">@style/checkBox</item>
+    </style>
+
+    <style name="WindowTitleBackground">     
+        <item name="android:background">@color/button_default_color</item>                   
+    </style>
+    
+	<style name="DialogWindowTitle">
+         <item name="android:maxLines">1</item>
+         <item name="android:scrollHorizontally">true</item>
+         <item name="android:textAppearance">@style/medium_text_appearance</item>
+     </style>
+	
+	<style name="AlertDialog">
+        <item name="android:windowIsFloating">true</item>
+		<item name="android:windowTitleStyle">@style/DialogWindowTitle</item>
+	    <item name="android:fullDark">@drawable/dialog_background</item>
+	    <item name="android:topDark">@drawable/dialog_top</item>
+	    <item name="android:centerDark">@drawable/dialog_center</item>
+	    <item name="android:bottomDark">@drawable/dialog_bottom</item>
+	    <item name="android:textColorPrimary">@color/mediumdark_textcolor</item>
+	    <item name="android:textAppearance">@style/medium_text_appearance</item>
+	</style>
+    
+    <style name="dropDownItem" parent="android:style/Widget.DropDownItem.Spinner">
+		<item name="android:background">@color/light_app_background</item>
+		<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">wrap_content</item>
+	</style>
+	
+    <style name="spinner" parent="android:style/Widget.Spinner">
+    	<item name="android:background">@drawable/spinner_selector</item>
+    	<item name="android:layout_width">wrap_content</item>
+    	<item name="android:layout_height">wrap_content</item>
+    	<item name="android:layout_centerVertical">true</item>
+    	<item name="android:layout_alignParentLeft">true</item>
+	</style>
+    
+	<style name="listView_style" parent="android:Widget.ListView">
+	    <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+		<item name="android:background">@drawable/default_listview_selector</item>
+		<item name="android:cacheColorHint">#00000000</item>
+		<item name="android:divider">@drawable/listview_divider</item>
+		<item name="android:dividerHeight">@dimen/height1</item>
+		<item name="android:listSelector">@drawable/default_item_selector</item>
+		<item name="android:horizontalDivider">@drawable/listview_divider</item>
+	</style>
+	
+	<style name="divider_style">
+		<item name="android:src">@drawable/divider</item>
+		<item name="android:layout_width">@dimen/width1</item>
+	   	<item name="android:layout_height">@dimen/height60</item>
+		<item name="android:layout_centerVertical">true</item>
+	</style>
+	
+    <style name="checkBox" parent="android:style/Widget.CompoundButton.CheckBox">
+		<item name="android:background">@null</item>
+		<item name="android:button">@drawable/checkbox_selector</item>
+	</style>
+	
+    <style name="topbar_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/height60</item>
+        <item name="android:background">@drawable/topbar_default</item>
+        <item name="android:layout_gravity">center_horizontal|top</item>
+    </style>
+    
+    <!-- Buttons -->
+	<style name="button_style">
+		<item name="android:layout_width">@dimen/height60</item>
+	   	<item name="android:layout_height">@dimen/height60</item>
+	   	<item name="android:layout_gravity">center</item>
+	   	<item name="android:textColor">@color/white_textcolor</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+		<item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+	   	<item name="android:singleLine">true</item>
+	   	<item name="android:gravity">center</item>
+	</style>
+	
+	<style name="transparent_button_style">
+		<item name="android:layout_width">@dimen/height60</item>
+	   	<item name="android:layout_height">@dimen/height60</item>
+	   	<item name="android:layout_gravity">center</item>
+	   	<item name="android:layout_margin">@dimen/margin5</item>
+	   	<item name="android:layout_centerVertical">true</item>
+	   	<item name="android:textColor">@color/white_textcolor</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+		<item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+	   	<item name="android:singleLine">true</item>
+	</style>
+	
+	<!-- listview -->
+    <style name="listview_child_text_style">
+		<item name="android:layout_width">fill_parent</item>
+	   	<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/dark_textcolor</item>
+        <item name="android:textSize">@dimen/text_size_smallmedium</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:maxLines">2</item>
+		<item name="android:ellipsize">end</item>
+	   	<item name="android:singleLine">false</item>
+       	<item name="android:gravity">left|top</item>
+	    <item name="android:paddingLeft">@dimen/padding5</item>
+	    <item name="android:paddingRight">@dimen/padding5</item>
+	    <item name="android:paddingTop">@dimen/padding2</item>
+	    <item name="android:paddingBottom">@dimen/zero_value</item>
+    </style>
+    
+    <style name="title_textcolor_style">
+   		<item name="android:layout_width">wrap_content</item>
+	   	<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_centerVertical">true</item>
+		<item name="android:layout_alignParentLeft">true</item>
+        <item name="android:textColor">@color/light_app_background</item>
+        <item name="android:textSize">@dimen/map_size_large</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>  
+        <item name="android:clickable">true</item>
+       	<item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+	   	<item name="android:singleLine">true</item>
+	   	<item name="android:gravity">left|center_vertical</item>
+    </style>
+	
+	<style name="spinner_text_style">
+		<item name="android:layout_width">fill_parent</item>
+	   	<item name="android:layout_height">wrap_content</item>
+	   	<item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">@color/white_textcolor</item>
+        <item name="android:textSize">@dimen/text_size_mediumlarge</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+	   	<item name="android:singleLine">true</item>
+       	<item name="android:gravity">left|center_vertical</item>
+       	<item name="android:paddingLeft">@dimen/padding5</item>
+	    <item name="android:paddingRight">@dimen/padding5</item>
+	    <item name="android:paddingTop">@dimen/padding5</item>
+	    <item name="android:paddingBottom">@dimen/padding5</item>
+    </style>
+    
+    <style name="dropdownitemm_spinner_text_style">
+		<item name="android:layout_width">fill_parent</item>
+	   	<item name="android:layout_height">wrap_content</item>
+	   	<item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">@color/dark_textcolor</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+	   	<item name="android:singleLine">true</item>
+       	<item name="android:gravity">left|center_vertical</item>
+       	<item name="android:paddingLeft">@dimen/padding8</item>
+	    <item name="android:paddingRight">@dimen/padding5</item>
+	    <item name="android:paddingTop">@dimen/padding10</item>
+	    <item name="android:paddingBottom">@dimen/padding10</item>
+    </style>
+    
+    <style name="medium_text_appearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/white_textcolor</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+</resources>

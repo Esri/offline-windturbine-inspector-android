@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/light_app_background">
+    
+    <!-- Top Bar -->
+ 	<include 
+ 		android:id="@+id/topbar"
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		android:layout_alignParentTop="true"
+ 		layout="@layout/mapviewtopbar"/>
+	 	
+    <FrameLayout
+        android:id="@+id/maplayout"
+       	android:layout_width="fill_parent"
+		android:layout_height="match_parent"
+		android:layout_below="@id/topbar">
+		
+	    <com.esri.android.map.MapView
+	        android:id="@+id/map"
+	        android:layout_width="fill_parent"
+	        android:layout_height="match_parent">
+		</com.esri.android.map.MapView>
+
+	    <RelativeLayout
+			android:id="@+id/mapwidgetslayout"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_gravity="top|right"
+			android:layout_marginRight="@dimen/margin3"
+			android:background="@android:color/transparent">		
+	   		<Button
+				android:id="@+id/zoombutton"
+				android:layout_width="@dimen/height80"
+				android:layout_height="@dimen/height80"
+				android:layout_alignParentTop="true"
+				android:layout_centerVertical="false"
+	    		android:text=""
+	    		android:visibility="gone"
+	    		android:background="@drawable/zoom_button_selector"
+	    		style="@style/transparent_button_style">
+	   		</Button>
+	   		
+	   		<ToggleButton
+				android:id="@+id/compassbutton"
+				android:layout_width="@dimen/height80"
+				android:layout_height="@dimen/height80"
+				android:layout_marginTop="@dimen/margin3"
+				android:layout_below="@id/zoombutton"
+				android:layout_centerVertical="false"
+				android:textOn=""
+				android:textOff=""
+				android:text=""
+				android:visibility="gone"
+				android:background="@drawable/compass_button_selector"
+		   		style="@style/transparent_button_style">
+	  		</ToggleButton>
+<!-- 				 -->
+	        
+			<ToggleButton
+				android:id="@+id/gpsbutton"
+				android:layout_width="@dimen/height80"
+				android:layout_height="@dimen/height80"
+				android:layout_marginBottom="@dimen/margin3"
+				android:layout_marginRight="@dimen/margin3"
+				android:layout_alignParentBottom="true"
+				android:layout_centerVertical="false"
+				android:textOn=""
+				android:textOff=""
+				android:visibility="gone"
+				android:background="@drawable/gps_button_selector"
+				style="@style/transparent_button_style">
+			</ToggleButton>
+  		</RelativeLayout>
+		
+	 	<include 
+	 		android:id="@+id/laserrangedatalayout"
+		    android:layout_width="@dimen/width350"
+		    android:layout_height="@dimen/height200"
+			android:layout_below="@id/topbar"
+	 		android:layout_marginLeft="@dimen/margin690"
+	 		android:visibility="gone"
+	 		layout="@layout/laserrangedata_layout"/>
+   		
+	 	<include 
+	 		android:id="@+id/resultsdatalayout"
+		    android:layout_width="@dimen/width350"
+		    android:layout_height="wrap_content"
+			android:layout_below="@id/topbar"
+	 		android:layout_gravity="top|right"
+	 		android:layout_alignParentRight="true"
+	 		android:layout_marginRight="@dimen/margin1"
+	 		android:visibility="gone"
+	 		layout="@layout/results_layout"/>
+	</FrameLayout>
+</RelativeLayout>

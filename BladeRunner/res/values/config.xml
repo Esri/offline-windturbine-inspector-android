@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Mini SDCard Offline Data -->
+	<string name="config.data.sdcard.dir">
+       demo
+    </string>
+	<string name="config.data.sdcard.offline.dir">
+       offlinedata
+    </string>
+        
+	<string name="config.basemap.name">
+	    basemap
+    </string>
+    <!-- Basemap  -->
+    <string name="config.basemap.dataframe.name">
+       Layers
+    </string>
+
+	<!-- Feature Services Info -->
+    <string name="config.windturbine.url">
+       http://mobilesampleserver.arcgisonline.com/ArcGIS/rest/services/DemoData/WindfarmSDKDemo/FeatureServer/0
+    </string>
+	<string name="config.windturbine.name">
+	   Wind Turbine
+	</string>
+    <string name="config.windturbine.layer.definition">
+      {
+  \"currentVersion\" : 10.01, 
+  \"id\" : 0, 
+  \"name\" : \"Wind Turbine\", 
+  \"type\" : \"Feature Layer\", 
+  \"displayField\" : \"ORS_\", 
+  \"description\" : \"\", 
+  \"copyrightText\" : \"\", 
+  \"relationships\" : [
+  ], 
+  \"geometryType\" : \"esriGeometryPoint\", 
+  \"minScale\" : 0, 
+  \"maxScale\" : 0, 
+  \"extent\" : {
+    \"xmin\" : -13026498.1821, 
+    \"ymin\" : 4013926.5728, 
+    \"xmax\" : 13298999.4698, 
+    \"ymax\" : 4864406.3471, 
+    \"spatialReference\" : {
+      \"wkid\" : 102100
+    }
+  }, 
+  \"drawingInfo\" : {\"renderer\" : 
+    {
+      \"type\" : \"simple\", 
+      \"symbol\" : 
+      {
+        \"type\" : \"esriPMS\", 
+        \"url\" : \"5582A87E\", 
+        \"imageData\" : \"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\", 
+        \"contentType\" : \"image/png\", 
+        \"color\" : null, 
+        \"width\" : 42, 
+        \"height\" : 42, 
+        \"angle\" : 0, 
+        \"xoffset\" : 0, 
+        \"yoffset\" : 0
+      }, 
+      \"label\" : \"\", 
+      \"description\" : \"\"
+    }, 
+    \"transparency\" : 0, 
+    \"labelingInfo\" : null}, 
+  \"hasAttachments\" : true, 
+  \"htmlPopupType\" : \"esriServerHTMLPopupTypeAsHTMLText\", 
+  \"objectIdField\" : \"OBJECTID\", 
+  \"globalIdField\" : \"\", 
+  \"typeIdField\" : \"\", 
+  \"fields\" : [
+    {
+      \"name\" : \"OBJECTID\", 
+      \"type\" : \"esriFieldTypeOID\", 
+      \"alias\" : \"OBJECTID\", 
+      \"editable\" : false, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"ORS_\", 
+      \"type\" : \"esriFieldTypeString\", 
+      \"alias\" : \"ORS_\", 
+      \"editable\" : true, 
+      \"length\" : 80, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"V\", 
+      \"type\" : \"esriFieldTypeString\", 
+      \"alias\" : \"V\", 
+      \"editable\" : true, 
+      \"length\" : 80, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"CO\", 
+      \"type\" : \"esriFieldTypeString\", 
+      \"alias\" : \"CO\", 
+      \"editable\" : true, 
+      \"length\" : 80, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"ST\", 
+      \"type\" : \"esriFieldTypeString\", 
+      \"alias\" : \"ST\", 
+      \"editable\" : true, 
+      \"length\" : 80, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"CITY\", 
+      \"type\" : \"esriFieldTypeString\", 
+      \"alias\" : \"CITY\", 
+      \"editable\" : true, 
+      \"length\" : 80, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"y\", 
+      \"type\" : \"esriFieldTypeDouble\", 
+      \"alias\" : \"y\", 
+      \"editable\" : true, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"x\", 
+      \"type\" : \"esriFieldTypeDouble\", 
+      \"alias\" : \"x\", 
+      \"editable\" : true, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"DEG\", 
+      \"type\" : \"esriFieldTypeDouble\", 
+      \"alias\" : \"DEG\", 
+      \"editable\" : true, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"MIN_\", 
+      \"type\" : \"esriFieldTypeDouble\", 
+      \"alias\" : \"MIN\", 
+      \"editable\" : true, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"SEC\", 
+      \"type\" : \"esriFieldTypeDouble\", 
+      \"alias\" : \"SEC\", 
+      \"editable\" : true, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"DEG_1\", 
+      \"type\" : \"esriFieldTypeDouble\", 
+      \"alias\" : \"DEG_1\", 
+      \"editable\" : true, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"MIN_1\", 
+      \"type\" : \"esriFieldTypeDouble\", 
+      \"alias\" : \"MIN_1\", 
+      \"editable\" : true, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"SEC_1\", 
+      \"type\" : \"esriFieldTypeDouble\", 
+      \"alias\" : \"SEC_1\", 
+      \"editable\" : true, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"TYPE\", 
+      \"type\" : \"esriFieldTypeString\", 
+      \"alias\" : \"TYPE\", 
+      \"editable\" : true, 
+      \"length\" : 80, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"HT\", 
+      \"type\" : \"esriFieldTypeDouble\", 
+      \"alias\" : \"HT\", 
+      \"editable\" : true, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"HT_1\", 
+      \"type\" : \"esriFieldTypeDouble\", 
+      \"alias\" : \"HT_1\", 
+      \"editable\" : true, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"H\", 
+      \"type\" : \"esriFieldTypeDouble\", 
+      \"alias\" : \"H\", 
+      \"editable\" : true, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"V_1\", 
+      \"type\" : \"esriFieldTypeString\", 
+      \"alias\" : \"V_1\", 
+      \"editable\" : true, 
+      \"length\" : 80, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"IND\", 
+      \"type\" : \"esriFieldTypeString\", 
+      \"alias\" : \"IND\", 
+      \"editable\" : true, 
+      \"length\" : 80, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"STUDY\", 
+      \"type\" : \"esriFieldTypeString\", 
+      \"alias\" : \"STUDY\", 
+      \"editable\" : true, 
+      \"length\" : 80, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"JDATE\", 
+      \"type\" : \"esriFieldTypeDouble\", 
+      \"alias\" : \"JDATE\", 
+      \"editable\" : true, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"TurbineType\", 
+      \"type\" : \"esriFieldTypeSmallInteger\", 
+      \"alias\" : \"Turbine Material\", 
+      \"editable\" : true, 
+      \"domain\" : 
+      {
+        \"type\" : \"codedValue\", 
+        \"name\" : \"Turbine\", 
+        \"codedValues\" : [
+          {
+            \"name\" : \"Aluminum\", 
+            \"code\" : 0
+          }, 
+          {
+            \"name\" : \"Composite\", 
+            \"code\" : 1
+          }, 
+          {
+            \"name\" : \"Steel\", 
+            \"code\" : 2
+          }, 
+          {
+            \"name\" : \"Carbon\", 
+            \"code\" : 3
+          }
+        ]
+      }
+    }, 
+    {
+      \"name\" : \"WindFarmZoneID\", 
+      \"type\" : \"esriFieldTypeInteger\", 
+      \"alias\" : \"Wind Farm Zone ID\", 
+      \"editable\" : true, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"WindFarmZoneName\", 
+      \"type\" : \"esriFieldTypeString\", 
+      \"alias\" : \"Wind Farm Zone Name\", 
+      \"editable\" : true, 
+      \"length\" : 30, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"TeamAreasID\", 
+      \"type\" : \"esriFieldTypeInteger\", 
+      \"alias\" : \"Team Areas ID\", 
+      \"editable\" : true, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"TeamAreasName\", 
+      \"type\" : \"esriFieldTypeString\", 
+      \"alias\" : \"Team Areas Name\", 
+      \"editable\" : true, 
+      \"length\" : 30, 
+      \"domain\" : null
+    }, 
+    {
+      \"name\" : \"WindTurbineID\", 
+      \"type\" : \"esriFieldTypeInteger\", 
+      \"alias\" : \"Wind Turbine ID\", 
+      \"editable\" : true, 
+      \"domain\" : null
+    }
+  ], 
+  \"types\" : [
+  ], 
+  \"templates\" : [
+    {
+      \"name\" : \"Wind Turbine\", 
+      \"description\" : \"\", 
+      \"drawingTool\" : \"esriFeatureEditToolPoint\", 
+      \"prototype\" : {
+        \"attributes\" : {
+          \"WindTurbineID\" : null, 
+          \"ORS_\" : null, 
+          \"V\" : null, 
+          \"CO\" : null, 
+          \"ST\" : null, 
+          \"CITY\" : null, 
+          \"y\" : null, 
+          \"x\" : null, 
+          \"DEG\" : null, 
+          \"MIN_\" : null, 
+          \"SEC\" : null, 
+          \"DEG_1\" : null, 
+          \"MIN_1\" : null, 
+          \"SEC_1\" : null, 
+          \"TYPE\" : null, 
+          \"HT\" : null, 
+          \"HT_1\" : null, 
+          \"H\" : null, 
+          \"V_1\" : null, 
+          \"IND\" : null, 
+          \"STUDY\" : null, 
+          \"JDATE\" : null, 
+          \"TurbineType\" : 1, 
+          \"WindFarmZoneID\" : null, 
+          \"WindFarmZoneName\" : null, 
+          \"TeamAreasID\" : null, 
+          \"TeamAreasName\" : null
+        }
+      }
+    }
+  ], 
+  \"capabilities\" : \"Query,Editing\"
+}
+        
+    </string>
+	<string name="config.windturbine.id.field">
+	    ORS_
+	</string>
+	<string name="config.windturbine.turbinetype.field">
+	    TurbineType
+	</string>
+	
+    <string name="config.teamareas.url">
+       http://mobilesampleserver.arcgisonline.com/ArcGIS/rest/services/DemoData/WindfarmSDKDemo/FeatureServer/1
+    </string>
+	<string name="config.teamareas.name">
+	   Team Areas
+	</string>
+    <string name="config.teamareas.layer.definition">
+       {\"currentVersion\":10.01,\"id\":1,\"name\":\"Team Areas\",\"type\":\"Feature Layer\",\"displayField\":\"Name\",\"description\":\"\",\"copyrightText\":\"\",\"relationships\":[],\"geometryType\":\"esriGeometryPolygon\",\"minScale\":0,\"maxScale\":0,\"extent\":{\"xmin\":-12981979.7251,\"ymin\":4017892.2734,\"xmax\":-12980656.8058,\"ymax\":4019499.6203,\"spatialReference\":{\"wkid\":102100}},\"drawingInfo\":{\"renderer\":{\"type\":\"uniqueValue\",\"field1\":\"TeamAreasName\",\"field2\" : null,\"field3\" : null,\"fieldDelimiter\":\", \",\"defaultSymbol\" : null,\"defaultLabel\":\"\u003call other values\u003e\",\"uniqueValueInfos\":[{\"value\":\"0\",\"label\":\"Team 1\",\"description\":\"\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[255,170,0,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[110,110,110,255],\"width\":0.4}}},{\"value\":\"1\",\"label\":\"Team 2\",\"description\":\"\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[255,255,0,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[110,110,110,255],\"width\":0.4}}},{\"value\":\"2\",\"label\":\"Team 3\",\"description\":\"\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[255,34,0,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[110,110,110,255],\"width\":0.4}}}]},\"transparency\":50,\"labelingInfo\" : null},\"hasAttachments\":false,\"htmlPopupType\":\"esriServerHTMLPopupTypeAsHTMLText\",\"objectIdField\":\"OBJECTID\",\"globalIdField\":\"\",\"typeIdField\":\"TeamAreasName\",\"fields\":[{\"name\":\"OBJECTID\",\"type\":\"esriFieldTypeOID\",\"alias\":\"OBJECTID\",\"editable\":false,\"domain\" : null},{\"name\":\"TeamAreasID\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"Team Areas ID\",\"editable\":true,\"domain\" : null},{\"name\":\"TeamAreasName\",\"type\":\"esriFieldTypeString\",\"alias\":\"Team Areas Name\",\"editable\":true,\"length\":30,\"domain\":{\"type\":\"codedValue\",\"name\":\"TeamZone\",\"codedValues\":[{\"name\":\"Team 1\",\"code\":\"0\"},{\"name\":\"Team 2\",\"code\":\"1\"},{\"name\":\"Team 3\",\"code\":\"2\"}]}},{\"name\":\"Labels\",\"type\":\"esriFieldTypeString\",\"alias\":\"Labels\",\"editable\":true,\"length\":255,\"domain\" : null}],\"types\":[{\"id\":\"1\",\"name\":\"Team 2\",\"domains\":{},\"templates\":[{\"name\":\"Team 2\",\"description\":\"team 2\",\"drawingTool\":\"esriFeatureEditToolPolygon\",\"prototype\":{\"attributes\":{\"Labels\" : null,\"TeamAreasName\":\"1\",\"TeamAreasID\" : null}}}]},{\"id\":\"2\",\"name\":\"Team 3\",\"domains\":{},\"templates\":[{\"name\":\"Team 3\",\"description\":\"team 3\",\"drawingTool\":\"esriFeatureEditToolPolygon\",\"prototype\":{\"attributes\":{\"Labels\" : null,\"TeamAreasName\":\"2\",\"TeamAreasID\" : null}}}]},{\"id\":\"0\",\"name\":\"Team 1\",\"domains\":{},\"templates\":[{\"name\":\"Team 1\",\"description\":\"Template!\",\"drawingTool\":\"esriFeatureEditToolPolygon\",\"prototype\":{\"attributes\":{\"Labels\" : null,\"TeamAreasName\":\"0\",\"TeamAreasID\" : null}}}]}],\"templates\":[],\"capabilities\":\"Query,Editing\"}
+    </string>
+	<string name="config.teamareas.id.field">
+	    TeamAreasID
+	</string>
+	<string name="config.teamareas.name.field">
+	    TeamAreasName
+	</string>
+	<string name="config.teamareas.label.field">
+	    Labels
+	</string> 
+	
+    <string name="config.windfarmzones.url">
+       http://mobilesampleserver.arcgisonline.com/ArcGIS/rest/services/DemoData/WindfarmSDKDemo/FeatureServer/2
+    </string>
+	<string name="config.windfarmzones.name">
+	   Wind Farm Zones
+	</string>
+    <string name="config.windfarmzones.layer.definition">
+       {\"currentVersion\":10.01,\"id\":2,\"name\":\"Wind Farm Zones\",\"type\":\"Feature Layer\",\"displayField\":\"Name\",\"description\":\"\",\"copyrightText\":\"\",\"relationships\":[],\"geometryType\":\"esriGeometryPolygon\",\"minScale\":0,\"maxScale\":0,\"extent\":{\"xmin\":-12983305.1042,\"ymin\":4013655.8708,\"xmax\":-12974055.2199,\"ymax\":4019480.7158,\"spatialReference\":{\"wkid\":102100}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\" : null,\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[85,255,0,255],\"width\":2}},\"label\":\"\",\"description\":\"\"},\"transparency\":45,\"labelingInfo\" : null},\"hasAttachments\":false,\"htmlPopupType\":\"esriServerHTMLPopupTypeAsHTMLText\",\"objectIdField\":\"OBJECTID\",\"globalIdField\":\"\",\"typeIdField\":\"\",\"fields\":[{\"name\":\"OBJECTID\",\"type\":\"esriFieldTypeOID\",\"alias\":\"OBJECTID\",\"editable\":false,\"domain\" : null},{\"name\":\"WindFarmZoneID\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"Wind Farm Zone ID\",\"editable\":true,\"domain\" : null},{\"name\":\"WindFarmZoneName\",\"type\":\"esriFieldTypeString\",\"alias\":\"Wind Farm Zone Name\",\"editable\":true,\"length\":30,\"domain\" : null}],\"types\":[],\"templates\":[{\"name\":\"Wind Farm Zones\",\"description\":\"\",\"drawingTool\":\"esriFeatureEditToolPolygon\",\"prototype\":{\"attributes\":{\"WindFarmZoneName\" : null,\"WindFarmZoneID\" : null}}}],\"capabilities\":\"Query,Editing\"}
+    </string>
+	
+    <string name="config.blocks.url">
+       http://mobilesampleserver.arcgisonline.com/ArcGIS/rest/services/DemoData/WindfarmSDKDemo/FeatureServer/3
+    </string>
+	<string name="config.blocks.name">
+	   Blocks
+	</string>
+    <string name="config.blocks.layer.definition">
+       {\"currentVersion\":10.01,\"id\":3,\"name\":\"Blocks\",\"type\":\"Feature Layer\",\"displayField\":\"NAME\",\"description\":\"\",\"copyrightText\":\"\",\"relationships\":[],\"geometryType\":\"esriGeometryPolygon\",\"minScale\":0,\"maxScale\":0,\"extent\":{\"xmin\":-12983455.3698,\"ymin\":4010852.4853,\"xmax\":-12973747.0885,\"ymax\":4022158.5245,\"spatialReference\":{\"wkid\":102100}},\"drawingInfo\":{\"renderer\":{\"type\":\"uniqueValue\",\"field1\":\"ID\",\"field2\" : null,\"field3\" : null,\"fieldDelimiter\":\", \",\"defaultSymbol\" : null,\"defaultLabel\":\"\u003call other values\u003e\",\"uniqueValueInfos\":[{\"value\":\"060650445032\",\"label\":\"1\",\"description\":\"\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\" : null,\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[190,255,232,255],\"width\":3}}},{\"value\":\"060650445033\",\"label\":\"2\",\"description\":\"\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\" : null,\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[115,223,255,255],\"width\":3}}},{\"value\":\"060650445039\",\"label\":\"3\",\"description\":\"\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\" : null,\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[0,197,255,255],\"width\":3}}},{\"value\":\"060650449041\",\"label\":\"4\",\"description\":\"\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\" : null,\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[0,169,230,255],\"width\":3}}}]},\"transparency\":0,\"labelingInfo\" : null},\"hasAttachments\":false,\"htmlPopupType\":\"esriServerHTMLPopupTypeAsHTMLText\",\"objectIdField\":\"OBJECTID\",\"globalIdField\":\"\",\"typeIdField\":\"ID\",\"fields\":[{\"name\":\"OBJECTID\",\"type\":\"esriFieldTypeOID\",\"alias\":\"OBJECTID\",\"editable\":false,\"domain\" : null},{\"name\":\"ID\",\"type\":\"esriFieldTypeString\",\"alias\":\"ID\",\"editable\":true,\"length\":12,\"domain\" : null},{\"name\":\"NAME\",\"type\":\"esriFieldTypeString\",\"alias\":\"Name\",\"editable\":true,\"length\":13,\"domain\" : null},{\"name\":\"ST_ABBREV\",\"type\":\"esriFieldTypeString\",\"alias\":\"State Abbreviation\",\"editable\":true,\"length\":2,\"domain\" : null},{\"name\":\"TOTPOP_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Total Population\",\"editable\":true,\"domain\" : null},{\"name\":\"POPDENS_CY\",\"type\":\"esriFieldTypeDouble\",\"alias\":\"2010 Population Density (Pop per sq mile)\",\"editable\":true,\"domain\" : null},{\"name\":\"POPDENS_I\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Population Density Index\",\"editable\":true,\"domain\" : null},{\"name\":\"RATE_POP\",\"type\":\"esriFieldTypeDouble\",\"alias\":\"1990-2000 Population Change\",\"editable\":true,\"domain\" : null},{\"name\":\"POPRATE_I\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"1990-2000 Population Change Index\",\"editable\":true,\"domain\" : null},{\"name\":\"POPGRW00CY\",\"type\":\"esriFieldTypeDouble\",\"alias\":\"2000-2010 Population: Annual Growth Rate\",\"editable\":true,\"domain\" : null},{\"name\":\"PGRW00CY_I\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2000-2010 Population Change Index\",\"editable\":true,\"domain\" : null},{\"name\":\"POPGRWCYFY\",\"type\":\"esriFieldTypeDouble\",\"alias\":\"2010-2015 Population: Annual Growth Rate\",\"editable\":true,\"domain\" : null},{\"name\":\"PGRWCYFY_I\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010-2015 Population Change Index\",\"editable\":true,\"domain\" : null},{\"name\":\"DIVINDX_CY\",\"type\":\"esriFieldTypeDouble\",\"alias\":\"2010 Diversity Index\",\"editable\":true,\"domain\" : null},{\"name\":\"MALES_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Male Population\",\"editable\":true,\"domain\" : null},{\"name\":\"PMALE_CY\",\"type\":\"esriFieldTypeDouble\",\"alias\":\"2010 % Male Population\",\"editable\":true,\"domain\" : null},{\"name\":\"PMALE_I\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 % Male Population Index\",\"editable\":true,\"domain\" : null},{\"name\":\"MEDAGE_CY\",\"type\":\"esriFieldTypeDouble\",\"alias\":\"2010 Median Age\",\"editable\":true,\"domain\" : null},{\"name\":\"MEDAGE_I\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Median Age Index\",\"editable\":true,\"domain\" : null},{\"name\":\"POPL18_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Population \u003c 18 Years Old\",\"editable\":true,\"domain\" : null},{\"name\":\"PPOPL18_CY\",\"type\":\"esriFieldTypeDouble\",\"alias\":\"2010 % Population \u003c 18 Years Old\",\"editable\":true,\"domain\" : null},{\"name\":\"PPOPL18_I\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 % Population \u003c 18 Years Old Index\",\"editable\":true,\"domain\" : null},{\"name\":\"POP65U_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Population 65+ Years Old\",\"editable\":true,\"domain\" : null},{\"name\":\"PPOP65U_CY\",\"type\":\"esriFieldTypeDouble\",\"alias\":\"2010 % Population 65+ Years Old\",\"editable\":true,\"domain\" : null},{\"name\":\"PPOP65U_I\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 % Population 65+ Years Old Index\",\"editable\":true,\"domain\" : null},{\"name\":\"TOTHH_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Total Households\",\"editable\":true,\"domain\" : null},{\"name\":\"HHDENS_CY\",\"type\":\"esriFieldTypeDouble\",\"alias\":\"2010 Household Density\",\"editable\":true,\"domain\" : null},{\"name\":\"HHDENS_I\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Households Density Index\",\"editable\":true,\"domain\" : null},{\"name\":\"AVGHHSZ_CY\",\"type\":\"esriFieldTypeDouble\",\"alias\":\"2010 Average Household Size\",\"editable\":true,\"domain\" : null},{\"name\":\"AVGHHSZ_I\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Average Household Size Index\",\"editable\":true,\"domain\" : null},{\"name\":\"OWNER_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Owner Occupied Housing Units\",\"editable\":true,\"domain\" : null},{\"name\":\"POWNER_CY\",\"type\":\"esriFieldTypeDouble\",\"alias\":\"2010 % Owner Occupied Housing Units\",\"editable\":true,\"domain\" : null},{\"name\":\"POWNER_I\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 % Owner Occupied Housing Units Index\",\"editable\":true,\"domain\" : null},{\"name\":\"MEDHINC_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Median Household Income\",\"editable\":true,\"domain\" : null},{\"name\":\"MEDHINC_I\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Median Household Income Index\",\"editable\":true,\"domain\" : null},{\"name\":\"DNRATIO_CY\",\"type\":\"esriFieldTypeDouble\",\"alias\":\"2010 Daytime to Nightime Population Ratio\",\"editable\":true,\"domain\" : null},{\"name\":\"DNRATIO_I\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Daytime to Nightime Population Ratio Index\",\"editable\":true,\"domain\" : null},{\"name\":\"LANDAREA\",\"type\":\"esriFieldTypeDouble\",\"alias\":\"Land Area in Square Miles\",\"editable\":true,\"domain\" : null},{\"name\":\"RACEBASECY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Population by Race Base\",\"editable\":true,\"domain\" : null},{\"name\":\"WHITE_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 White Population\",\"editable\":true,\"domain\" : null},{\"name\":\"BLACK_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Black Population\",\"editable\":true,\"domain\" : null},{\"name\":\"AMERIND_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 American Indian/Alaska Native Population\",\"editable\":true,\"domain\" : null},{\"name\":\"ASIAN_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Asian Population\",\"editable\":true,\"domain\" : null},{\"name\":\"PACIFIC_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Pacific Islander Population\",\"editable\":true,\"domain\" : null},{\"name\":\"OTHRACE_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Other Race Population\",\"editable\":true,\"domain\" : null},{\"name\":\"RACE2UP_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Population of Two or More Races\",\"editable\":true,\"domain\" : null},{\"name\":\"HISPPOP_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Total Hispanic Population\",\"editable\":true,\"domain\" : null},{\"name\":\"FEMALES_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Female Population\",\"editable\":true,\"domain\" : null},{\"name\":\"PFEMALE_CY\",\"type\":\"esriFieldTypeDouble\",\"alias\":\"2010 % Female Population\",\"editable\":true,\"domain\" : null},{\"name\":\"AGEBASE_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Total Population by 5-Year Age Base\",\"editable\":true,\"domain\" : null},{\"name\":\"POPU5_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Population, Age 0-4 Years\",\"editable\":true,\"domain\" : null},{\"name\":\"POP5_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Population, Age 5-9 Years\",\"editable\":true,\"domain\" : null},{\"name\":\"POP10_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Population, Age 10-14 Years\",\"editable\":true,\"domain\" : null},{\"name\":\"POP15_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Population, Age 15-19 Years\",\"editable\":true,\"domain\" : null},{\"name\":\"POP20_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Population, Age 20-24 Years\",\"editable\":true,\"domain\" : null},{\"name\":\"POP25_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Population, Age 25-29 Years\",\"editable\":true,\"domain\" : null},{\"name\":\"POP30_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Population, Age 30-34 Years\",\"editable\":true,\"domain\" : null},{\"name\":\"POP35_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Population, Age 35-39 Years\",\"editable\":true,\"domain\" : null},{\"name\":\"POP40_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Population, Age 40-44 Years\",\"editable\":true,\"domain\" : null},{\"name\":\"POP45_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Population, Age 45-49 Years\",\"editable\":true,\"domain\" : null},{\"name\":\"POP50_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Population, Age 50-54 Years\",\"editable\":true,\"domain\" : null},{\"name\":\"POP55_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Population, Age 55-59 Years\",\"editable\":true,\"domain\" : null},{\"name\":\"POP60_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Population, Age 60-64 Years\",\"editable\":true,\"domain\" : null},{\"name\":\"POP65_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Population, Age 65-69 Years\",\"editable\":true,\"domain\" : null},{\"name\":\"POP70_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Population, Age 70-74 Years\",\"editable\":true,\"domain\" : null},{\"name\":\"POP75_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Population, Age 75-79 Years\",\"editable\":true,\"domain\" : null},{\"name\":\"POP80_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Population, Age 80-84 Years\",\"editable\":true,\"domain\" : null},{\"name\":\"POP85_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Population, Age 85 Years or Older\",\"editable\":true,\"domain\" : null},{\"name\":\"RENTER_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Renter Occupied Housing Units\",\"editable\":true,\"domain\" : null},{\"name\":\"HINCBASECY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Households by Income Base\",\"editable\":true,\"domain\" : null},{\"name\":\"HINC0_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Household Income less than $10,000\",\"editable\":true,\"domain\" : null},{\"name\":\"HINC10_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Household Income $10,000 - $14,999\",\"editable\":true,\"domain\" : null},{\"name\":\"HINC15_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Household Income $15,000 - $19,999\",\"editable\":true,\"domain\" : null},{\"name\":\"HINC20_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Household Income $20,000 - $24,999\",\"editable\":true,\"domain\" : null},{\"name\":\"HINC25_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Household Income $25,000 - $29,999\",\"editable\":true,\"domain\" : null},{\"name\":\"HINC30_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Household Income $30,000 - $34,999\",\"editable\":true,\"domain\" : null},{\"name\":\"HINC35_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Household Income $35,000 - $39,999\",\"editable\":true,\"domain\" : null},{\"name\":\"HINC40_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Household Income $40,000 - $44,999\",\"editable\":true,\"domain\" : null},{\"name\":\"HINC45_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Household Income $45,000 - $49,999\",\"editable\":true,\"domain\" : null},{\"name\":\"HINC50_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Household Income $50,000 - $59,999\",\"editable\":true,\"domain\" : null},{\"name\":\"HINC60_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Household Income $60,000 - $74,999\",\"editable\":true,\"domain\" : null},{\"name\":\"HINC75_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Household Income $75,000 - $99,999\",\"editable\":true,\"domain\" : null},{\"name\":\"HINC100_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Household Income $100,000 - $124,999\",\"editable\":true,\"domain\" : null},{\"name\":\"HINC125_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Household Income $125,000 - $149,999\",\"editable\":true,\"domain\" : null},{\"name\":\"HINC150_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Household Income $150,000 - $199,999\",\"editable\":true,\"domain\" : null},{\"name\":\"HINC200_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Household Income $200,000 - $249,999\",\"editable\":true,\"domain\" : null},{\"name\":\"HINC250_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Household Income $250,000 - $499,999\",\"editable\":true,\"domain\" : null},{\"name\":\"HINC500_CY\",\"type\":\"esriFieldTypeInteger\",\"alias\":\"2010 Household Income $500,000 or greater\",\"editable\":true,\"domain\" : null}],\"types\":[{\"id\":\"060650445033\",\"name\":\"2\",\"domains\":{},\"templates\":[{\"name\":\"060650445033\",\"description\":\"\",\"drawingTool\":\"esriFeatureEditToolPolygon\",\"prototype\":{\"attributes\":{\"HINC500_CY\":0,\"ID\":\"060650445033\",\"NAME\":\" \",\"ST_ABBREV\":\" \",\"TOTPOP_CY\":0,\"POPDENS_CY\":0,\"POPDENS_I\":0,\"RATE_POP\":0,\"POPRATE_I\":0,\"POPGRW00CY\":0,\"PGRW00CY_I\":0,\"POPGRWCYFY\":0,\"PGRWCYFY_I\":0,\"DIVINDX_CY\":0,\"MALES_CY\":0,\"PMALE_CY\":0,\"PMALE_I\":0,\"MEDAGE_CY\":0,\"MEDAGE_I\":0,\"POPL18_CY\":0,\"PPOPL18_CY\":0,\"PPOPL18_I\":0,\"POP65U_CY\":0,\"PPOP65U_CY\":0,\"PPOP65U_I\":0,\"TOTHH_CY\":0,\"HHDENS_CY\":0,\"HHDENS_I\":0,\"AVGHHSZ_CY\":0,\"AVGHHSZ_I\":0,\"OWNER_CY\":0,\"POWNER_CY\":0,\"POWNER_I\":0,\"MEDHINC_CY\":0,\"MEDHINC_I\":0,\"DNRATIO_CY\":0,\"DNRATIO_I\":0,\"LANDAREA\":0,\"RACEBASECY\":0,\"WHITE_CY\":0,\"BLACK_CY\":0,\"AMERIND_CY\":0,\"ASIAN_CY\":0,\"PACIFIC_CY\":0,\"OTHRACE_CY\":0,\"RACE2UP_CY\":0,\"HISPPOP_CY\":0,\"FEMALES_CY\":0,\"PFEMALE_CY\":0,\"AGEBASE_CY\":0,\"POPU5_CY\":0,\"POP5_CY\":0,\"POP10_CY\":0,\"POP15_CY\":0,\"POP20_CY\":0,\"POP25_CY\":0,\"POP30_CY\":0,\"POP35_CY\":0,\"POP40_CY\":0,\"POP45_CY\":0,\"POP50_CY\":0,\"POP55_CY\":0,\"POP60_CY\":0,\"POP65_CY\":0,\"POP70_CY\":0,\"POP75_CY\":0,\"POP80_CY\":0,\"POP85_CY\":0,\"RENTER_CY\":0,\"HINCBASECY\":0,\"HINC0_CY\":0,\"HINC10_CY\":0,\"HINC15_CY\":0,\"HINC20_CY\":0,\"HINC25_CY\":0,\"HINC30_CY\":0,\"HINC35_CY\":0,\"HINC40_CY\":0,\"HINC45_CY\":0,\"HINC50_CY\":0,\"HINC60_CY\":0,\"HINC75_CY\":0,\"HINC100_CY\":0,\"HINC125_CY\":0,\"HINC150_CY\":0,\"HINC200_CY\":0,\"HINC250_CY\":0}}}]},{\"id\":\"060650449041\",\"name\":\"4\",\"domains\":{},\"templates\":[{\"name\":\"060650449041\",\"description\":\"\",\"drawingTool\":\"esriFeatureEditToolPolygon\",\"prototype\":{\"attributes\":{\"HINC500_CY\":0,\"ID\":\"060650449041\",\"NAME\":\" \",\"ST_ABBREV\":\" \",\"TOTPOP_CY\":0,\"POPDENS_CY\":0,\"POPDENS_I\":0,\"RATE_POP\":0,\"POPRATE_I\":0,\"POPGRW00CY\":0,\"PGRW00CY_I\":0,\"POPGRWCYFY\":0,\"PGRWCYFY_I\":0,\"DIVINDX_CY\":0,\"MALES_CY\":0,\"PMALE_CY\":0,\"PMALE_I\":0,\"MEDAGE_CY\":0,\"MEDAGE_I\":0,\"POPL18_CY\":0,\"PPOPL18_CY\":0,\"PPOPL18_I\":0,\"POP65U_CY\":0,\"PPOP65U_CY\":0,\"PPOP65U_I\":0,\"TOTHH_CY\":0,\"HHDENS_CY\":0,\"HHDENS_I\":0,\"AVGHHSZ_CY\":0,\"AVGHHSZ_I\":0,\"OWNER_CY\":0,\"POWNER_CY\":0,\"POWNER_I\":0,\"MEDHINC_CY\":0,\"MEDHINC_I\":0,\"DNRATIO_CY\":0,\"DNRATIO_I\":0,\"LANDAREA\":0,\"RACEBASECY\":0,\"WHITE_CY\":0,\"BLACK_CY\":0,\"AMERIND_CY\":0,\"ASIAN_CY\":0,\"PACIFIC_CY\":0,\"OTHRACE_CY\":0,\"RACE2UP_CY\":0,\"HISPPOP_CY\":0,\"FEMALES_CY\":0,\"PFEMALE_CY\":0,\"AGEBASE_CY\":0,\"POPU5_CY\":0,\"POP5_CY\":0,\"POP10_CY\":0,\"POP15_CY\":0,\"POP20_CY\":0,\"POP25_CY\":0,\"POP30_CY\":0,\"POP35_CY\":0,\"POP40_CY\":0,\"POP45_CY\":0,\"POP50_CY\":0,\"POP55_CY\":0,\"POP60_CY\":0,\"POP65_CY\":0,\"POP70_CY\":0,\"POP75_CY\":0,\"POP80_CY\":0,\"POP85_CY\":0,\"RENTER_CY\":0,\"HINCBASECY\":0,\"HINC0_CY\":0,\"HINC10_CY\":0,\"HINC15_CY\":0,\"HINC20_CY\":0,\"HINC25_CY\":0,\"HINC30_CY\":0,\"HINC35_CY\":0,\"HINC40_CY\":0,\"HINC45_CY\":0,\"HINC50_CY\":0,\"HINC60_CY\":0,\"HINC75_CY\":0,\"HINC100_CY\":0,\"HINC125_CY\":0,\"HINC150_CY\":0,\"HINC200_CY\":0,\"HINC250_CY\":0}}}]},{\"id\":\"060650445032\",\"name\":\"1\",\"domains\":{},\"templates\":[{\"name\":\"060650445032\",\"description\":\"\",\"drawingTool\":\"esriFeatureEditToolPolygon\",\"prototype\":{\"attributes\":{\"HINC500_CY\":0,\"ID\":\"060650445032\",\"NAME\":\" \",\"ST_ABBREV\":\" \",\"TOTPOP_CY\":0,\"POPDENS_CY\":0,\"POPDENS_I\":0,\"RATE_POP\":0,\"POPRATE_I\":0,\"POPGRW00CY\":0,\"PGRW00CY_I\":0,\"POPGRWCYFY\":0,\"PGRWCYFY_I\":0,\"DIVINDX_CY\":0,\"MALES_CY\":0,\"PMALE_CY\":0,\"PMALE_I\":0,\"MEDAGE_CY\":0,\"MEDAGE_I\":0,\"POPL18_CY\":0,\"PPOPL18_CY\":0,\"PPOPL18_I\":0,\"POP65U_CY\":0,\"PPOP65U_CY\":0,\"PPOP65U_I\":0,\"TOTHH_CY\":0,\"HHDENS_CY\":0,\"HHDENS_I\":0,\"AVGHHSZ_CY\":0,\"AVGHHSZ_I\":0,\"OWNER_CY\":0,\"POWNER_CY\":0,\"POWNER_I\":0,\"MEDHINC_CY\":0,\"MEDHINC_I\":0,\"DNRATIO_CY\":0,\"DNRATIO_I\":0,\"LANDAREA\":0,\"RACEBASECY\":0,\"WHITE_CY\":0,\"BLACK_CY\":0,\"AMERIND_CY\":0,\"ASIAN_CY\":0,\"PACIFIC_CY\":0,\"OTHRACE_CY\":0,\"RACE2UP_CY\":0,\"HISPPOP_CY\":0,\"FEMALES_CY\":0,\"PFEMALE_CY\":0,\"AGEBASE_CY\":0,\"POPU5_CY\":0,\"POP5_CY\":0,\"POP10_CY\":0,\"POP15_CY\":0,\"POP20_CY\":0,\"POP25_CY\":0,\"POP30_CY\":0,\"POP35_CY\":0,\"POP40_CY\":0,\"POP45_CY\":0,\"POP50_CY\":0,\"POP55_CY\":0,\"POP60_CY\":0,\"POP65_CY\":0,\"POP70_CY\":0,\"POP75_CY\":0,\"POP80_CY\":0,\"POP85_CY\":0,\"RENTER_CY\":0,\"HINCBASECY\":0,\"HINC0_CY\":0,\"HINC10_CY\":0,\"HINC15_CY\":0,\"HINC20_CY\":0,\"HINC25_CY\":0,\"HINC30_CY\":0,\"HINC35_CY\":0,\"HINC40_CY\":0,\"HINC45_CY\":0,\"HINC50_CY\":0,\"HINC60_CY\":0,\"HINC75_CY\":0,\"HINC100_CY\":0,\"HINC125_CY\":0,\"HINC150_CY\":0,\"HINC200_CY\":0,\"HINC250_CY\":0}}}]},{\"id\":\"060650445039\",\"name\":\"3\",\"domains\":{},\"templates\":[{\"name\":\"3\",\"description\":\"\",\"drawingTool\":\"esriFeatureEditToolPolygon\",\"prototype\":{\"attributes\":{\"HINC500_CY\" : null,\"ID\":\"060650445039\",\"NAME\" : null,\"ST_ABBREV\" : null,\"TOTPOP_CY\" : null,\"POPDENS_CY\" : null,\"POPDENS_I\" : null,\"RATE_POP\" : null,\"POPRATE_I\" : null,\"POPGRW00CY\" : null,\"PGRW00CY_I\" : null,\"POPGRWCYFY\" : null,\"PGRWCYFY_I\" : null,\"DIVINDX_CY\" : null,\"MALES_CY\" : null,\"PMALE_CY\" : null,\"PMALE_I\" : null,\"MEDAGE_CY\" : null,\"MEDAGE_I\" : null,\"POPL18_CY\" : null,\"PPOPL18_CY\" : null,\"PPOPL18_I\" : null,\"POP65U_CY\" : null,\"PPOP65U_CY\" : null,\"PPOP65U_I\" : null,\"TOTHH_CY\" : null,\"HHDENS_CY\" : null,\"HHDENS_I\" : null,\"AVGHHSZ_CY\" : null,\"AVGHHSZ_I\" : null,\"OWNER_CY\" : null,\"POWNER_CY\" : null,\"POWNER_I\" : null,\"MEDHINC_CY\" : null,\"MEDHINC_I\" : null,\"DNRATIO_CY\" : null,\"DNRATIO_I\" : null,\"LANDAREA\" : null,\"RACEBASECY\" : null,\"WHITE_CY\" : null,\"BLACK_CY\" : null,\"AMERIND_CY\" : null,\"ASIAN_CY\" : null,\"PACIFIC_CY\" : null,\"OTHRACE_CY\" : null,\"RACE2UP_CY\" : null,\"HISPPOP_CY\" : null,\"FEMALES_CY\" : null,\"PFEMALE_CY\" : null,\"AGEBASE_CY\" : null,\"POPU5_CY\" : null,\"POP5_CY\" : null,\"POP10_CY\" : null,\"POP15_CY\" : null,\"POP20_CY\" : null,\"POP25_CY\" : null,\"POP30_CY\" : null,\"POP35_CY\" : null,\"POP40_CY\" : null,\"POP45_CY\" : null,\"POP50_CY\" : null,\"POP55_CY\" : null,\"POP60_CY\" : null,\"POP65_CY\" : null,\"POP70_CY\" : null,\"POP75_CY\" : null,\"POP80_CY\" : null,\"POP85_CY\" : null,\"RENTER_CY\" : null,\"HINCBASECY\" : null,\"HINC0_CY\" : null,\"HINC10_CY\" : null,\"HINC15_CY\" : null,\"HINC20_CY\" : null,\"HINC25_CY\" : null,\"HINC30_CY\" : null,\"HINC35_CY\" : null,\"HINC40_CY\" : null,\"HINC45_CY\" : null,\"HINC50_CY\" : null,\"HINC60_CY\" : null,\"HINC75_CY\" : null,\"HINC100_CY\" : null,\"HINC125_CY\" : null,\"HINC150_CY\" : null,\"HINC200_CY\" : null,\"HINC250_CY\" : null}}}]}],\"templates\":[],\"capabilities\":\"Query,Editing\"}
+    </string>
+    
+	<string name="config.teamareaslabel.name">
+	   Team Areas Labels
+	</string>
+	<string name="config.laserrangefinder.name">
+	   Laser Range Finder
+	</string>
+	<string name="config.found.name">
+	   Query Results
+	</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+	<TextView 
+		android:id="@+id/layername"
+		android:layout_centerVertical="true"
+		android:layout_margin="@dimen/padding10" 
+		android:text="@string/maplayer"
+		style="@style/dropdownitemm_spinner_text_style">
+	</TextView>
+	<CheckBox
+		android:id="@+id/layervisibility" 
+		android:layout_width="@dimen/width40"
+		android:layout_height="@dimen/height40"
+		android:layout_centerVertical="true"
+		android:layout_alignParentRight="true"
+		android:text=""
+		android:layout_marginRight="@dimen/margin5"
+		android:checked="true">
+	</CheckBox>
+	<SeekBar
+	    android:id="@+id/opacity"
+	    android:layout_width="@dimen/width200"
+	    android:layout_height="wrap_content"
+	    android:layout_centerVertical="true"
+	    android:layout_marginRight="@dimen/margin5"
+	    android:indeterminateOnly="false"
+	    android:thumbOffset="1dip"
+	    android:minHeight="@dimen/height10"
+		android:maxHeight="@dimen/height10"
+		android:max="100"
+		android:progressDrawable="@drawable/seekbar_progress"
+		android:secondaryProgress="@color/actionbar_color"
+		android:thumb="@drawable/seekbar_thumb"
+	    android:layout_toLeftOf="@id/layervisibility" />
+</RelativeLayout>

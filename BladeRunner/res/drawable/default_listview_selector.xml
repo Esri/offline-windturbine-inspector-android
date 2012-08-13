@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:visible="true">
+
+    <!-- the list items are disabled -->
+	<item 
+        android:state_window_focused="false"
+        android:drawable="@android:color/transparent">
+	</item>
+
+    <!-- the list items are enabled, in focus but not being touched/pressed (idle) -->
+    <item 
+        android:state_window_focused="true"
+        android:drawable="@drawable/default_item_selector">
+    </item>
+    
+    <item 
+        android:state_focused="true"
+        android:drawable="@drawable/default_item_selector">
+    </item>
+    
+    <item 
+        android:state_pressed="true"
+        android:drawable="@drawable/default_item_selector">
+    </item>
+    
+    <item 
+        android:state_selected="true"
+        android:drawable="@drawable/default_item_selector">
+    </item>
+    
+    <item 
+        android:state_checked="true"
+        android:drawable="@drawable/default_item_selector">
+    </item>
+
+    <!-- the catch-all -->
+    <item 
+        android:drawable="@android:color/transparent">
+    </item>
+</selector>
+
+<!-- <shape -->
+<!-- 	xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!-- 	android:shape="rectangle"> -->
+<!-- 	<solid -->
+<!-- 		android:color="@color/button_color2"/> -->
+<!--     <stroke  -->
+<!--     	android:width="@dimen/zero_value"  -->
+<!--     	android:color="@android:color/transparent"/> -->
+<!-- </shape> -->
+

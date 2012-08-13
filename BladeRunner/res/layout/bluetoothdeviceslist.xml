@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/light_app_background">
+    
+	<LinearLayout 
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"
+	    android:background="@color/light_app_background">
+	    
+	    <!-- Pair Devices -->
+	    <TextView 
+	        android:id="@+id/paired_devices_text"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/paired_devices"
+	        android:background="@drawable/textview_default"
+	        android:padding="@dimen/padding10"
+	        android:visibility="gone"
+	        style="?android:attr/spinnerItemStyle"/>
+	
+	    <ListView
+	        android:id="@+id/paired_devices_list"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/light_app_background"
+	        android:cacheColorHint="#00000000"
+	        android:layout_weight="2">
+	    </ListView>
+	
+	    <!-- New Devices -->
+	    <TextView 
+	        android:id="@+id/title_new_devices"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/other_devices"
+	        android:background="@drawable/textview_default"
+	        android:padding="@dimen/padding10"
+	        android:visibility="gone"
+	        style="?android:attr/spinnerItemStyle"/>
+	    <ListView 
+	        android:id="@+id/new_devices"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/light_app_background"
+	        android:cacheColorHint="#00000000"
+	        android:stackFromBottom="true"
+	        android:layout_weight="2">
+	    </ListView>
+		
+	    <Button 
+	        android:id="@+id/button_scan"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="@dimen/margin5"
+	        android:paddingLeft="@dimen/padding12"
+	        android:paddingRight="@dimen/padding12"
+	        android:paddingTop="@dimen/padding8"
+	        android:paddingBottom="@dimen/padding8"
+	        android:text="@string/button_scan"
+	        android:stackFromBottom="true"
+	        android:background="@drawable/button_selector"
+	        style="@style/transparent_button_style"/>
+	</LinearLayout>
+	
+    <ProgressBar 
+		android:id="@+id/progressbar"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@android:color/transparent"
+		android:layout_gravity="center"
+		android:visibility="gone"
+		android:indeterminateOnly="true"/>
+</FrameLayout>

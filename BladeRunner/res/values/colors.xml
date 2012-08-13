@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<!-- Text -->
+    <color name="dark_textcolor">#ff373737</color>
+	<color name="textcolor">#ffd5ddeb</color>
+    <color name="mediumdark_textcolor">#ff707070</color>
+    <color name="white_textcolor">#ffe2e2e2</color>
+    <color name="maptext_textcolor">#ffffffff</color>
+    
+    <color name="listview_divider">#66B5C6DC</color>
+    <color name="focused_item_background">#7fff0000</color>
+	<color name="dialog_stroke">#ffededed</color>
+	
+    <color name="app_background">#ff151515</color>
+    <color name="light_app_background">#ffffffff</color>
+    <color name="actionbar_color">#ff323131</color>
+    <color name="layout_background">#df323131</color>
+    
+    <color name="button_default_color">#ff323131</color>
+    <color name="button_default_stroke">#ff323131</color>
+    
+    <color name="delete_default_color1">#fffe0404</color>
+    <color name="delete_default_color2">#ffad0404</color>
+    <color name="delete_pressed_color">#7F454545</color>
+    
+    <color name="button_disabled_color">#7f515151</color>
+    <color name="button_disabled_stroke">#7F202020</color>
+    
+    <color name="button_pressed_color1">#ffff8c04</color>
+    <color name="button_pressed_color2">#ffff7300</color>
+    <color name="button_pressed_stroke">#7Fecb37a</color>
+    
+    <color name="edit_pressed_color">#7f323131</color>
+    
+    <color name="widget_stroke">#7F282828</color>
+    
+    <color name="divider_color">#7FEEEEEE</color>
+    <color name="divider_color2">#7e6e6e6e</color>
+    
+    <color name="map_button_pressed_color1">#dfff8c04</color>
+    <color name="map_button_pressed_color2">#dfff7300</color>
+    
+	<color name="map_areas_color">#ee0bf2</color>
+	<color name="area_color">#ffff7300</color>
+	
+	<color name="sketch_background_line_color">#ffffffff</color>
+	<color name="sketch_vertex_background_color">#ffffffff</color>
+	<color name="sketch_vertex_stroke_color">#ffd06003</color>
+	
+	<color name="laser_line_color">#ffcc00ff</color>
+	<color name="laser_background_line_color">#FFFFFFFF</color>
+	
+    <color name="zoom_button_color">#bf323131</color>
+    <color name="zoom_button_stroke">#df323131</color>
+    
+    <!-- Seek -->
+    <color name="seek_color">#bfb1b1b1</color>
+    <color name="seek_color2">#bf303030</color>
+    <color name="seek_stroke">#bfe2e2e2</color>
+    <color name="thumb_color">#ffb1b1b1</color>
+    <color name="thumb_color2">#ff303030</color>
+</resources>

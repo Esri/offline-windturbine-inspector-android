@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/laserrangelayout"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_margin="@dimen/margin2"
+	android:background="@drawable/layout_semitransparent">
+
+   	<TextView
+		android:id="@+id/laserrangetext"
+		android:layout_alignParentTop="true"
+		android:layout_centerVertical="false"
+		android:paddingTop="@dimen/padding8"
+		android:paddingBottom="@dimen/padding8"
+		android:background="@drawable/textview_pressed"
+		android:text="@string/laser_range_data"
+		android:textStyle="bold"
+		style="@style/spinner_text_style"/>
+    
+    <RelativeLayout
+		android:id="@+id/headerlayout"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/laserrangetext"
+		android:layout_marginLeft="@dimen/margin3">
+		<!-- horizontal distance -->
+		<TextView
+			android:id="@+id/hdtext"
+			android:layout_width="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_centerVertical="false"
+			android:text="@string/laser_range_horizontal_distance"
+			style="@style/spinner_text_style"/>
+		<TextView
+			android:id="@+id/hdvalue"
+			android:layout_width="wrap_content"
+			android:layout_centerVertical="false"
+			android:layout_toRightOf="@id/hdtext"
+			android:paddingLeft="@dimen/padding2"
+			android:text="@string/n_a"
+			style="@style/spinner_text_style"/>
+		<!-- slope distance -->
+		<TextView
+			android:id="@+id/sdtext"
+			android:layout_width="wrap_content"
+			android:layout_centerVertical="false"
+			android:layout_below="@id/hdtext"
+			android:text="@string/laser_range_slope_distance"
+			style="@style/spinner_text_style"/>
+		<TextView
+			android:id="@+id/sdvalue"
+			android:layout_width="wrap_content"
+			android:layout_centerVertical="false"
+			android:layout_toRightOf="@id/sdtext"
+			android:layout_below="@id/hdtext"
+			android:text="@string/n_a"
+			style="@style/spinner_text_style"/>
+		<!-- bearing -->
+		<TextView
+			android:id="@+id/bearingtext"
+			android:layout_width="wrap_content"
+			android:layout_centerVertical="false"
+			android:layout_below="@id/sdtext"
+			android:text="@string/laser_range_bearing"
+			style="@style/spinner_text_style"/>
+		<TextView
+			android:id="@+id/bearingvalue"
+			android:layout_width="wrap_content"
+			android:layout_centerVertical="false"
+			android:layout_toRightOf="@id/bearingtext"
+			android:layout_below="@id/sdtext"
+			android:text="@string/n_a"
+			style="@style/spinner_text_style"/>
+		<!-- Inclination -->
+		<TextView
+			android:id="@+id/inclinationtext"
+			android:layout_width="wrap_content"
+			android:layout_centerVertical="false"
+			android:layout_below="@id/bearingtext"
+			android:text="@string/laser_range_inclination"
+			style="@style/spinner_text_style"/>
+		<TextView
+			android:id="@+id/inclinationvalue"
+			android:layout_width="wrap_content"
+			android:layout_centerVertical="false"
+			android:layout_toRightOf="@id/inclinationtext"
+			android:layout_below="@id/bearingtext"
+			android:paddingBottom="@dimen/padding8"
+			android:text="@string/n_a"
+			style="@style/spinner_text_style"/>
+	</RelativeLayout>
+</RelativeLayout>

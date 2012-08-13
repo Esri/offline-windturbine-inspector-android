@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Blade Runner</string>
+    <string name="team_hint">Select a Team</string>
+    <string name="day_hint">Select a Day</string>
+    <string name="maplayers">Map Layers</string>
+    <string name="maplayer">Map Layer</string>
+    <string name="results">Results</string>
+    <string name="tubines_found">Wind Turbines Found</string>
+    <string name="result">Result</string>
+    <string name="turbine_type">Turbine Type:</string>
+    <string name="wind_turbine_study">Study:</string>
+    <string name="wind_turbine_id">Wind Turbine ID:</string>
+    <string name="sick_population">Sick Population:</string>
+    <string name="n_a">n/a</string>
+    <string name="edit_dialog_title">Select Turbine Type:</string>
+	
+    <!-- Bluetooth -->
+    <string name="bluetooth_devices">Bluetooth Devices</string>
+	<string name="alert_dialog_no_bt">Cannot use this application without bluetooth.</string>
+	<string name="alert_dialog_turn_on_bt">This application needs the Bluetooth. Do you want turn on?</string>
+    <string name="connecting_to_device">Connecting&#8230;</string>
+    <string name="connection_started">Started&#8230;</string>
+
+    <!--  DeviceListActivity -->
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="paired_devices">Paired Devices</string>
+    <string name="other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    
+    <!--  Laser Range Data -->
+    <string name="laser_range_data">Laser Range Data</string>
+    <string name="laser_range_horizontal_distance">Horizontal Distance: </string>
+    <string name="laser_range_slope_distance">Slope Distance: </string>
+    <string name="laser_range_bearing">Bearing: </string>
+    <string name="laser_range_inclination">Inclination: </string>
+    
+    <string-array name="teamname">
+        <item></item>
+        <item>Team 1</item>
+        <item>Team 2</item>
+        <item>Team 3</item>
+    </string-array>	
+    
+    <string-array name="teamday">
+        <item></item>
+        <item>Day 1</item>
+        <item>Day 2</item>
+        <item>Day 3</item>
+    </string-array>
+    
+
+    <!-- Options Menu -->
+<!--     <string name="connect">Connect device</string> -->
+<!--     <string name="disconnect">Disconnect device</string> -->
+<!--     <string name="preferences">Preferences</string>     -->
+<!--     <string name="special_keys">Special keys</string> -->
+</resources>

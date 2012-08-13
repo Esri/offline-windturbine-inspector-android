@@ -1,0 +1,5 @@
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/spinnertext"
+	style="?android:attr/spinnerItemStyle">
+</TextView>
