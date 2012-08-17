@@ -3,8 +3,6 @@ package com.esri.android.samples.bladerunner;
 import java.util.HashMap;
 import java.util.List;
 
-import android.content.Intent;
-
 import com.esri.android.map.ags.ArcGISFeatureLayer;
 import com.esri.android.samples.bladerunner.maptools.Area;
 import com.esri.core.geometry.Envelope;
