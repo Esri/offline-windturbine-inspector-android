@@ -7,6 +7,17 @@ The source is provided as an Eclipse ArcGIS Android Project.
 If you are interested in the latest release APK please download from http://www.arcgis.com/home/item.html?id=01acc4eef0f04c2d9d0796e78938d3cd.  
 
 ===============
+Requirements
+===============
+Java Development Kit SE 6 (http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+Eclipse Indigo or Juno (http://www.eclipse.org/downloads/)
+Android SDK 3.2+ platform (https://developer.android.com/sdk/index.html)
+Android ADT plugin for Eclipse (https://developer.android.com/tools/sdk/eclipse-adt.html)
+ArcGIS Runtime SDK for Android v2.0 (http://www.esri.com/apps/products/download/index.cfm?fuseaction=download.main&downloadid=813)
+
+BladeRunner application is intended for tablet devices.  
+
+===============
 Data Structure
 ===============
 + data
