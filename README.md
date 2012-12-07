@@ -7,9 +7,9 @@ The release application (apk) along with more information can be found at: http:
 ![App](https://raw.github.com/Esri/offline-windturbine-inspector-android/master/offline-windturbine-inspector-android.jpg) 
 
 ## Features
-* Illustrates how to change basemaps
-* Many basemaps to choose from: Streets, Satellite, Topography, Oceans, Gray...
-* Use the dojo BasemapGallery digit to make things easy
+* Create new features using a Laser Rangefinder connected via Bluetooth
+* All data is local to the device.  This showcases offline capability features available in the SDK.  Offline data types include Map Tile Packages and JSON Feature Sets.  
+* This application has been developed specifically for Android Tablets targeting Android 3.2 (API 13) and up.  It has been tested on 4.0 and 4.1 devices.
 
 ## Instructions
 
