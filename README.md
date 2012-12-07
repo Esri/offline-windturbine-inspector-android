@@ -26,7 +26,7 @@ USA
 
 email: contracts@esri.com
 
-# switch-basemaps-js
+# offline-windturbine-inspector-android
 
 This is an ArcGIS Javascript sample that illustrates how to change your map's basemap.  There are over 12 ArcGIS Online basemaps to choose from. Learn more about basemaps [here](http://www.arcgis.com/home/search.html?q=basemaps&t=content).
 
