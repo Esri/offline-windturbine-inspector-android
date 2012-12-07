@@ -14,21 +14,21 @@ The release application (apk) along with more information can be found at: http:
 ## Instructions
 
 1. Download and unzip the .zip file or clone the repo.
-2. Web-enable the directory or copy/paste the source to your own .html file.
-3. Access the .html page.
+2. Import project into Eclipse IDE
 
  [New to Github? Get started here.](https://github.com/)
 
 ## Requirements
 
-* Notepad or HTML editor
-* A little background with Javascript
-* Experience with the [ArcGIS Javascript API](http://www.esri.com/) would help.
+* Java Development Kit SE 6
+* Eclipse Indigo or Juno
+* Android ADT Eclipse plugin
+* ArcGIS Runtime SDK for Android v2.0 or above
 
 ## Resources
 
-* [ArcGIS for JavaScript API Resource Center](http://help.arcgis.com/en/webapi/javascript/arcgis/index.html)
-* [ArcGIS Blog](http://blogs.esri.com/esri/arcgis/)
+* [ArcGIS Runtime SDK for Android Resource Center](http://resources.arcgis.com/en/communities/runtime-android/)
+* [ArcGIS Mobile Blog](http://blogs.esri.com/esri/arcgis/category/mobile/)
 * [twitter@esri](http://twitter.com/esri)
 
 ## Issues
