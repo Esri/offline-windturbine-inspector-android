@@ -4,7 +4,7 @@ An Android application for inspecting wind turbines in the field. The applicatio
 
 The release application (apk) along with more information can be found at: http://www.arcgis.com/home/item.html?id=01acc4eef0f04c2d9d0796e78938d3cd
 
-![App](https://raw.github.com/Esri/switch-basemaps-js/master/switch-basemaps-js.png) 
+![App](https://raw.github.com/Esri/offline-windturbine-inspector-android/master/offline-windturbine-inspector-android.jpg) 
 
 ## Features
 * Illustrates how to change basemaps
