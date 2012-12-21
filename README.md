@@ -1,28 +1,58 @@
-BladeRunner
-===========
+# offline-windturbine-inspector-android
 
 An Android application for inspecting wind turbines in the field. The application is built with the ArcGIS Runtime SDK for Android.  This application was shown in the ESRI Developer Summit 2012 Plenary.  
 
 The release application (apk) along with more information can be found at: http://www.arcgis.com/home/item.html?id=01acc4eef0f04c2d9d0796e78938d3cd
 
-Access and Use Constraints
-This sample application has been explicitly designed around the service(s) it is using. You may need to make modifications to the sample if you replace the service(s) with your own. 
+![App](https://raw.github.com/Esri/offline-windturbine-inspector-android/master/offline-windturbine-inspector-android.jpg) 
 
-Sample code usage restrictions
+## Features
+* Create new features using a Laser Rangefinder connected via Bluetooth
+* All data is local to the device.  This showcases offline capability features available in the SDK.  Offline data types include Map Tile Packages and JSON Feature Sets.  
+* This application has been developed specifically for Android Tablets targeting Android 3.2 (API 13) and up.  It has been tested on 4.0 and 4.1 devices.
 
-Copyright © 2012 ESRI
+## Instructions
 
-All rights reserved under the copyright laws of the United States and applicable international laws, treaties, and conventions.
+1. Download and unzip the .zip file or clone the repo.
+2. Import project into Eclipse IDE
 
-You may freely redistribute and use this sample code, with or without modification, provided you include the original copyright notice and use restrictions.
+ [New to Github? Get started here.](https://github.com/)
 
-Disclaimer: THE SAMPLE CODE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL ESRI OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) SUSTAINED BY YOU OR A THIRD PARTY, HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT ARISING IN ANY WAY OUT OF THE USE OF THIS SAMPLE CODE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+## Requirements
 
-For additional information, contact:
-Environmental Systems Research Institute, Inc.
-Attn: Contracts and Legal Services Department
-380 New York Street Redlands, California, 92373
-USA
+* Java Development Kit SE 6
+* Eclipse Indigo or Juno
+* Android ADT Eclipse plugin
+* ArcGIS Runtime SDK for Android v2.0 or above
 
-email: contracts@esri.com
+## Resources
+
+* [ArcGIS Runtime SDK for Android Resource Center](http://resources.arcgis.com/en/communities/runtime-android/)
+* [ArcGIS Mobile Blog](http://blogs.esri.com/esri/arcgis/category/mobile/)
+* [twitter@esri](http://twitter.com/esri)
+
+## Issues
+
+Find a bug or want to request a new feature?  Please let us know by submitting an issue.
+
+## Contributing
+
+Anyone and everyone is welcome to contribute. 
+
+## Licensing
+Copyright 2012 Esri
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+A copy of the license is available in the repository's [license.txt](https://raw.github.com/Esri/switch-basemaps-js/master/license.txt) file.
 
