@@ -27,7 +27,7 @@ The release application (apk) along with more information can be found at: http:
 
 ## Resources
 
-* [ArcGIS Runtime SDK for Android Resource Center](http://resources.arcgis.com/en/communities/runtime-android/)
+* [ArcGIS Runtime SDK for Android Developers Site](https://developers.arcgis.com/en/android/)
 * [ArcGIS Mobile Blog](http://blogs.esri.com/esri/arcgis/category/mobile/)
 * [twitter@esri](http://twitter.com/esri)
 
