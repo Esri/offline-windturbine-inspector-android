@@ -10,10 +10,10 @@ If you are interested in the latest release APK please download from http://www.
 Requirements
 ===============
 Java Development Kit SE 6 (http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-Eclipse Indigo or Juno (http://www.eclipse.org/downloads/)
+Eclipse Juno or Kepler (http://www.eclipse.org/downloads/)
 Android SDK 3.2+ platform (https://developer.android.com/sdk/index.html)
 Android ADT plugin for Eclipse (https://developer.android.com/tools/sdk/eclipse-adt.html)
-ArcGIS Runtime SDK for Android v2.0 (http://www.esri.com/apps/products/download/index.cfm?fuseaction=download.main&downloadid=813)
+ArcGIS Runtime SDK for Android v10.1.1-u1 (https://developers.arcgis.com/en/android/)
 
 BladeRunner application is intended for tablet devices.  
 
