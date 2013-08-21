@@ -21,7 +21,7 @@ The release application (apk) along with more information can be found at: http:
 ## Requirements
 
 * Java Development Kit SE 6
-* Eclipse Indigo or Juno
+* Eclipse Juno or Kepler
 * Android ADT Eclipse plugin
 * ArcGIS Runtime SDK for Android v2.0 or above
 
