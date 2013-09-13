@@ -4,31 +4,31 @@ An Android application for inspecting wind turbines in the field. The applicatio
 
 The release application (apk) along with more information can be found at: http://www.arcgis.com/home/item.html?id=01acc4eef0f04c2d9d0796e78938d3cd
 
-![App](https://raw.github.com/Esri/switch-basemaps-js/master/switch-basemaps-js.png) 
+![App](https://raw.github.com/Esri/offline-windturbine-inspector-android/master/offline-windturbine-inspector-android.jpg) 
 
 ## Features
-* Illustrates how to change basemaps
-* Many basemaps to choose from: Streets, Satellite, Topography, Oceans, Gray...
-* Use the dojo BasemapGallery digit to make things easy
+* Create new features using a Laser Rangefinder connected via Bluetooth
+* All data is local to the device.  This showcases offline capability features available in the SDK.  Offline data types include Map Tile Packages and JSON Feature Sets.  
+* This application has been developed specifically for Android Tablets targeting Android 3.2 (API 13) and up.  It has been tested on 4.0 and 4.1 devices.
 
 ## Instructions
 
 1. Download and unzip the .zip file or clone the repo.
-2. Web-enable the directory or copy/paste the source to your own .html file.
-3. Access the .html page.
+2. Import project into Eclipse IDE
 
  [New to Github? Get started here.](https://github.com/)
 
 ## Requirements
 
-* Notepad or HTML editor
-* A little background with Javascript
-* Experience with the [ArcGIS Javascript API](http://www.esri.com/) would help.
+* Java Development Kit SE 6
+* Eclipse Juno or Kepler
+* Android ADT Eclipse plugin
+* ArcGIS Runtime SDK for Android v2.0 or above
 
 ## Resources
 
-* [ArcGIS for JavaScript API Resource Center](http://help.arcgis.com/en/webapi/javascript/arcgis/index.html)
-* [ArcGIS Blog](http://blogs.esri.com/esri/arcgis/)
+* [ArcGIS Runtime SDK for Android Developers Site](https://developers.arcgis.com/en/android/)
+* [ArcGIS Mobile Blog](http://blogs.esri.com/esri/arcgis/category/mobile/)
 * [twitter@esri](http://twitter.com/esri)
 
 ## Issues
@@ -38,6 +38,11 @@ Find a bug or want to request a new feature?  Please let us know by submitting a
 ## Contributing
 
 Anyone and everyone is welcome to contribute. 
+
+1. Get Involved
+2. Report Issues
+3. Contribute Code
+4. Improve Documentation
 
 ## Licensing
 Copyright 2012 Esri
@@ -56,5 +61,10 @@ limitations under the License.
 
 A copy of the license is available in the repository's [license.txt](https://raw.github.com/Esri/switch-basemaps-js/master/license.txt) file.
 
+<<<<<<< HEAD
 [](Esri Tags: ArcGIS Android Offline)
 [](Esri Language: Java)​
+=======
+[](Esri Tags: ArcGIS Runtime Android Offline)
+[](Esri Language: Java)
+>>>>>>> branch 'master' of https://github.com/Esri/offline-windturbine-inspector-android.git
