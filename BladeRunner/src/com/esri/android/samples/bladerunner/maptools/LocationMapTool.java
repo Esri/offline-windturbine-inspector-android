@@ -158,7 +158,7 @@ public class LocationMapTool extends MapTool {
 		
 		int uid = selectedGraphic.getUid();
 		
-		final Graphic graphic = new Graphic(selectedGraphic.getGeometry(), selectedGraphic.getSymbol(), attributes, selectedGraphic.getInfoTemplate());
+		final Graphic graphic = new Graphic(selectedGraphic.getGeometry(), selectedGraphic.getSymbol(), attributes);
 		
 		windTurbinesFeatureLayer.updateGraphic(uid, graphic);
 		Utility.printAttibuteValues(selectedGraphic);

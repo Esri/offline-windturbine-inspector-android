@@ -37,12 +37,13 @@ import com.esri.core.symbol.TextSymbol.VerticalAlignment;
  */
 
 public class SketchGraphicsLayer extends GraphicsLayer {
-//	private static final String TAG = SketchGraphicsLayer.class.getSimpleName();
-	
+	// private static final String TAG =
+	// SketchGraphicsLayer.class.getSimpleName();
+
 	private Resources resources;
-	
+
 	private Type geometryType;
-	
+
 	private HashMap<Integer, Area> sketchedAreas = new HashMap<Integer, Area>();
 	private Area sketchArea;
 	private boolean isStarted;
@@ -51,62 +52,71 @@ public class SketchGraphicsLayer extends GraphicsLayer {
 	private SimpleLineSymbol lineSymbol;
 	private SimpleFillSymbol fillSymbol;
 	private SimpleFillSymbol selectedFillSymbol;
-	
+
 	private int fillTransparency = 50;
 	private int selectedFillTransparency = 98;
-	
+
 	private OnSketchGraphicLayerListener onSketchGraphicLayerListener;
 
 	/**
 	 * Constructor for SketchGraphicsLayer.
-	 * @param context Context
+	 * 
+	 * @param context
+	 *            Context
 	 */
 	public SketchGraphicsLayer(Context context) {
 		super();
 		this.resources = context.getResources();
-		
+
 		setTextSymbols();
-		
+
 		setLineSymbols();
-		
+
 		setFillSymbols();
 	}
-	
+
 	public void clear() {
 		this.removeAll();
 		sketchedAreas = new HashMap<Integer, Area>();
 		isStarted = false;
 		sketchArea = null;
 	}
-	
+
 	/**
 	 * Method getSketchArea.
-	
-	 * @return Area */
+	 * 
+	 * @return Area
+	 */
 	public Area getSketchArea() {
 		return sketchArea;
 	}
 
 	/**
 	 * Method setSketchArea.
-	 * @param sketchArea Area
+	 * 
+	 * @param sketchArea
+	 *            Area
 	 */
 	public void setSketchArea(Area sketchArea) {
 		this.sketchArea = sketchArea;
 		drawSketch();
 	}
-	
+
 	/**
 	 * Method setStarted.
-	 * @param isStarted boolean
+	 * 
+	 * @param isStarted
+	 *            boolean
 	 */
 	public void setStarted(boolean isStarted) {
 		this.isStarted = isStarted;
 	}
-	
+
 	/**
 	 * Method setSketchedAreas.
-	 * @param areas HashMap<Integer,Area>
+	 * 
+	 * @param areas
+	 *            HashMap<Integer,Area>
 	 */
 	public void setSketchedAreas(HashMap<Integer, Area> areas) {
 		this.sketchedAreas = areas;
@@ -115,39 +125,46 @@ public class SketchGraphicsLayer extends GraphicsLayer {
 
 	private void setLineSymbols() {
 		int color = resources.getColor(R.color.area_color);
-		lineSymbol = new SimpleLineSymbol(color, (int) resources.getDimension(R.dimen.sketch_line_stroke));
+		lineSymbol = new SimpleLineSymbol(color,
+				(int) resources.getDimension(R.dimen.sketch_line_stroke));
 	}
-	
+
 	private void setFillSymbols() {
 		int color = resources.getColor(R.color.area_color);
 		fillSymbol = new SimpleFillSymbol(color);
 		fillSymbol.setAlpha(fillTransparency);
 		fillSymbol.setOutline(lineSymbol);
-		
-		selectedFillSymbol= new SimpleFillSymbol(color);
+
+		selectedFillSymbol = new SimpleFillSymbol(color);
 		selectedFillSymbol.setAlpha(selectedFillTransparency);
 		selectedFillSymbol.setOutline(lineSymbol);
 	}
 
 	private void setTextSymbols() {
-		labelTextSymbol = new TextSymbol(resources.getDimension(R.dimen.map_size_large), 
-				"", resources.getColor(R.color.white_textcolor));
+		labelTextSymbol = new TextSymbol(30, "",
+				resources.getColor(R.color.white_textcolor));
 		labelTextSymbol.setHorizontalAlignment(HorizontalAlignment.CENTER);
 		labelTextSymbol.setVerticalAlignment(VerticalAlignment.MIDDLE);
 	}
-	
+
 	/**
 	 * Method setSketchGraphicLayerListener.
-	 * @param listener OnSketchGraphicLayerListener
+	 * 
+	 * @param listener
+	 *            OnSketchGraphicLayerListener
 	 */
-	public void setSketchGraphicLayerListener(OnSketchGraphicLayerListener listener) {
+	public void setSketchGraphicLayerListener(
+			OnSketchGraphicLayerListener listener) {
 		this.onSketchGraphicLayerListener = listener;
 	}
-	
+
 	/**
 	 * Method setOnMeasureChanged.
-	 * @param distance double
-	 * @param angle double
+	 * 
+	 * @param distance
+	 *            double
+	 * @param angle
+	 *            double
 	 */
 	public void setOnMeasureChanged(double distance, double angle) {
 		if (onSketchGraphicLayerListener != null)
@@ -156,23 +173,28 @@ public class SketchGraphicsLayer extends GraphicsLayer {
 
 	/**
 	 * Method setGeometryType.
-	 * @param geometryType Type
+	 * 
+	 * @param geometryType
+	 *            Type
 	 */
 	public void setGeometryType(Type geometryType) {
 		this.geometryType = geometryType;
 	}
-	
+
 	/**
 	 * Method getFillTransparency.
-	
-	 * @return int */
+	 * 
+	 * @return int
+	 */
 	public int getFillTransparency() {
 		return fillTransparency;
 	}
-	
+
 	/**
 	 * Method setFillTransparency.
-	 * @param fillTransparency int
+	 * 
+	 * @param fillTransparency
+	 *            int
 	 */
 	public void setFillTransparency(int fillTransparency) {
 		this.fillTransparency = fillTransparency;
@@ -180,21 +202,25 @@ public class SketchGraphicsLayer extends GraphicsLayer {
 
 	/**
 	 * Method insertVertexAtEnd.
-	 * @param point Point
+	 * 
+	 * @param point
+	 *            Point
 	 */
-	public void insertVertexAtEnd(Point point){
+	public void insertVertexAtEnd(Point point) {
 		sketch(point);
 	}
 
 	/**
 	 * Method sketch.
-	 * @param point Point
+	 * 
+	 * @param point
+	 *            Point
 	 */
-	private void sketch(Point point){
+	private void sketch(Point point) {
 		if (point == null || point.isEmpty())
 			return;
-		
-		switch(geometryType){
+
+		switch (geometryType) {
 		case POLYGON:
 			if (!isStarted) {
 				sketchArea.area.startPath(point);
@@ -205,24 +231,25 @@ public class SketchGraphicsLayer extends GraphicsLayer {
 		default:
 			break;
 		}
-		
+
 		drawSketch();
 	}
-	
-	private void drawSketch(){
-		switch(geometryType){
+
+	private void drawSketch() {
+		switch (geometryType) {
 		case POLYGON:
 			if (sketchArea.isValid()) {
 				if (sketchArea.id == -1)
-					sketchArea.id = addGraphic(new Graphic(sketchArea.area, selectedFillSymbol));
+					sketchArea.id = addGraphic(new Graphic(sketchArea.area,
+							selectedFillSymbol));
 				else {
 					updateGraphic(sketchArea.id, sketchArea.area);
 					updateGraphic(sketchArea.id, selectedFillSymbol);
 				}
-				
+
 				drawSketchAreaLabel(sketchArea);
 			}
-			
+
 			for (Area area : sketchedAreas.values()) {
 				if (area.id == -1) {
 					area.id = addGraphic(new Graphic(area.area, fillSymbol));
@@ -230,7 +257,7 @@ public class SketchGraphicsLayer extends GraphicsLayer {
 					updateGraphic(area.id, area.area);
 					updateGraphic(area.id, fillSymbol);
 				}
-				
+
 				drawSketchAreaLabel(area);
 			}
 			break;
@@ -241,26 +268,29 @@ public class SketchGraphicsLayer extends GraphicsLayer {
 
 	/**
 	 * Method drawSketchAreaLabel.
-	 * @param area Area
+	 * 
+	 * @param area
+	 *            Area
 	 */
 	private void drawSketchAreaLabel(Area area) {
-	    Envelope envelope = new Envelope();
-	    area.area.queryEnvelope(envelope);
-	    Point point = envelope.getCenter();
-	    labelTextSymbol.setText(area.getLabel());
-	    
-	    if (area.labelID == -1) {
-	    	area.labelID =  addGraphic(new Graphic(point, labelTextSymbol));
-	    } else {
-	    	updateGraphic(area.labelID, point);
+		Envelope envelope = new Envelope();
+		area.area.queryEnvelope(envelope);
+		Point point = envelope.getCenter();
+		labelTextSymbol.setText(area.getLabel());
+
+		if (area.labelID == -1) {
+			area.labelID = addGraphic(new Graphic(point, labelTextSymbol));
+		} else {
+			updateGraphic(area.labelID, point);
 			updateGraphic(area.labelID, labelTextSymbol);
-	    }
+		}
 	}
-	
+
 	/**
 	 * Method getGeometry.
-	
-	 * @return Geometry */
+	 * 
+	 * @return Geometry
+	 */
 	public Geometry getGeometry() {
 		return sketchArea.area;
 	}
