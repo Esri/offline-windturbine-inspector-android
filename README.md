@@ -1,10 +1,13 @@
 # offline-windturbine-inspector-android
+=======================================
+# Deprecation Notice
+This repo has been deprecated as the ArcGIS Android API has updated API patterns for working with offline data.  Please see the [ArcGIS Android SDK Samples repo](https://github.com/Esri/arcgis-runtime-samples-android) for modern offine patterns and to the [ArcGIS Android demo repo](https://github.com/Esri/arcgis-runtime-demos-android) for more demo applications like this in the future.  
 
 An Android application for inspecting wind turbines in the field. The application is built with the ArcGIS Runtime SDK for Android.  This application was shown in the ESRI Developer Summit 2012 Plenary.  
 
 The release application (apk) along with more information can be found at: http://www.arcgis.com/home/item.html?id=01acc4eef0f04c2d9d0796e78938d3cd
 
-![App](https://raw.github.com/Esri/offline-windturbine-inspector-android/master/offline-windturbine-inspector-android.jpg) 
+![App](https://raw.github.com/Esri/offline-windturbine-inspector-android/master/offline-windturbine-inspector-android.jpg)
 
 ## Features
 * Create new features using a Laser Rangefinder connected via Bluetooth
@@ -37,7 +40,7 @@ Find a bug or want to request a new feature?  Please let us know by submitting a
 
 ## Contributing
 
-Anyone and everyone is welcome to contribute. 
+Anyone and everyone is welcome to contribute.
 
 1. Get Involved
 2. Report Issues
