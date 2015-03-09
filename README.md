@@ -2,6 +2,7 @@
 =======================================
 # Deprecation Notice
 This repo has been deprecated as the ArcGIS Android API has updated API patterns for working with offline data.  Please see the [ArcGIS Android SDK Samples repo](https://github.com/Esri/arcgis-runtime-samples-android) for modern offine patterns and to the [ArcGIS Android demo repo](https://github.com/Esri/arcgis-runtime-demos-android) for more demo applications like this in the future.  
+=======================================
 
 An Android application for inspecting wind turbines in the field. The application is built with the ArcGIS Runtime SDK for Android.  This application was shown in the ESRI Developer Summit 2012 Plenary.  
 
